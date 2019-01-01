@@ -1,10 +1,9 @@
 ---
-title: "CS 24: Problem Solving with Computers -II , Winter 19 Mirza"
+title: "CS 8, W19, Mirza
 ---
 
-# CS 24: Problem Solving with Computers-II, Winter 19
 
-<!--{{site.course}}, {{site.quarter}}-->
+# {{site.course}}, {{site.quarter}}
 
 {% include collapse-button.html label="Information" id="info-list" %}
 <div class="collapse" id="info-list">
