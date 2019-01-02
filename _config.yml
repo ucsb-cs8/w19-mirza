@@ -4,7 +4,7 @@ plugins:
 
 remote_theme: ucsb-cs-course-repos/course-repo-jekyll-theme
 
-url: https://ucsb-cs8.github.io 
+url: https://ucsb-cs8.github.io/w19-mirza/
 baseurl: "/w19-mirza"  
 
 name: "CS 8 Winter 2019 Mirza"
@@ -14,6 +14,11 @@ title: "UCSB CS8 W19 Mirza"
 github_url: https://github.com/ucsb-cs8/w19-mirza
 qtr: "W19"
 quarter: "Winter 2019"
+ta_names: "Mohith Pukale, Anacaren Ruiz"
+lab_times: "Tuesdays: 9a, 10a, 11a, noon"
+instructor: "Diba Mirza"
+lecture_times: "TR 2:00p-3:15p"
+lecture_location: "CHEM 1171"
 
 class_org:
    name: ucsb-cs8-w19-mirza 
