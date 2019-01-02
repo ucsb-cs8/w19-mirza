@@ -1,10 +1,10 @@
 ---
-title: "CS 8, W19, Mirza"
+title: "CS8, W19, Mirza"
 ---
 
 {% include cs8-mirza-logo.html %}
 
-# {{site.course}}, {{site.quarter}}
+# {{site.course}}, {{site.quarter}} with Prof. Mirza
 
 {% include collapse-button.html label="Information" id="info-list" %}
 <div class="collapse" id="info-list">
