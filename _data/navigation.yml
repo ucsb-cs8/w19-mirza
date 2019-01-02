@@ -1,18 +1,4 @@
-# the production_url is the url that the parent/child site have in common
-#  e.g. production_url: https://ucsb-cs8.github.io
-#  for main site http://ucsb-cs8.github.io
-#  and child sites
-#    https://ucsb-cs8.github.io/w19-matni
-#    https://ucsb-cs8.github.io/w19-mirza
-#    https://ucsb-cs8.github.io/s19-kharitonova
-#    https://ucsb-cs8.github.io/s19-mirza
-#    etc.
-
 production_url: https://ucsb-cs8.github.io
-
-# List the title and url for each item on navigation bar.
-# For items that should be relative urls, put the baseurl of the site
-# they come from, / for main site, and /f18, /s19, etc for child sites.
 
 home:
    title: UCSB CS8
@@ -22,15 +8,24 @@ home:
 main_dropdown:
    title: Resources
    items:
-     - title: Topics
+     - title: "CS8 or CS16?"
+       url: /8-or-16/
+     - title: Textbooks
+       url: /textbooks_list/       
+     - title: Python Topics
+       url: /ptopic_list/
+     - title: Other Topics
        url: /topic_list/
      - title: Resources
        url: /resources_list/
+     - title: Tutorials
+       url: /tutorials_list/
+
 
 offerings:
-   title: "W19 Mirza"
+   title: "W19 Matni"
    url: /	
-   baseurl: /w19-mirza
+   baseurl: /w19-matni
    items:
       - title: "W19 Matni"
         url: /
@@ -43,9 +38,6 @@ offering_links:
   - title: Hwk
     url: /hwk_list/
     description: "Homework Assignments"
-  - title: PA
-    url: /pa_list/
-    description: "Programming Assignments"
   - title: Lab
     url: /lab_list/
     description: "Lab Assignments"
@@ -63,10 +55,6 @@ offering_links:
        - title: Info Pages
          url: /info_list/
          description: "List of General Information Pages"
-       - title: Office Hours	
-         url: /info/office_hours/
-       - title: Staff
-         url: /staff_list/
   - title: Links
     dropdown:	 
        - title: Gauchospace
@@ -78,9 +66,5 @@ offering_links:
        - title: Piazza
          url: https://piazza.com
          description: "Q&A Forum"
-  - title: Github
-    dropdown:
-       - title: ucsb-cs8-w19-mirza
-         url: https://github.com/ucsb-cs8-w19-mirza
 
 
