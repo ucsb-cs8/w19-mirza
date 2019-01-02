@@ -4,35 +4,124 @@ layout: default
 ready: true
 ---
 
-Basic Facts
------------
+# Syllabus
+
+## Basic Facts
 
 * **Course Web Site**: <{{ site.url}}>
 * **Instructor**:  [Diba Mirza](http://www.cs.ucsb.edu/~dimirza)
-* **Lecture**: {{ site.lecture_times}}, {{ site.lecture_locations}}
+* **Lecture**: {{ site.lecture_times}}, {{ site.lecture_location}}
 * **TAs**: {{ site.ta_names}}(contact via Piazza.com)
-* **Lab** (50 minute closed lab sections) ,{{ site.lab_times}} ATTENDANCE REQUIRED.                                         
+* **Lab** (50 minute closed lab sections), {{ site.lab_times}} ATTENDANCE REQUIRED.                                         
 
 
 
-# Required Resources
+## Required Resources
 
 * Textbook: "Introduction to Computing Using Python" - Ljubomir Perkovic, 2nd edition
-* iclicker remote for in class participation (purchase at the book store)
+* iclicker: Used in class participation (purchase at the book store)
 
 
-Official UCSB Catalog Description
----------------------------------
+## What you will learn in this course
+So, what is it that you need to know to be a skilled beginning-level programmer in Python? Here's the  list of what you'll need to be ready for CMPSC&nbsp;16 (aka CS16, the next programming course):
 
-<div style="background-color:#eee; border: 8px inset #333; font-size:90%; margin:1em; width:45em; padding: 0.5em;" markdown="1">
+#### Problem solving
 
-CMPSC 8: Introduction to Computer Science
+* Breaking down a problem into a sequence of steps
+* Abstracting specific problems into general ones and finding general solutions
+       
+#### Memory concepts
+* variables, primitive vs. reference variables, name, type, value
+* assignment statements
+* scope of variables
 
-Not open for credit to students who have completed Computer Science 16 or Engineering 3.
+#### Control structures
+* for loops, if/else, while loops
+* Lists in Python (similar to arrays in other languages)
+* index vs. value, finding sum, min, max, average, count of elements matching some condition, making a new list of elements containing only those that match some condition
 
-Introduction to computer program development for students with little to no programming experience. Basic programming concepts, variables and expressions, data and control structures, algorithms, debugging, program design, and documentation.
+#### Functions
+* function call vs. function definition
+* formal vs. actual parameters (arguments)
 
-</div>
+#### Testing
+
+* How to test your code
+* Input/output concepts
+
+#### Writing to the terminal
+
+* Reading from the keyboard
+* Reading and writing to files
+* Neatly formatting output
+
+#### Program style
+
+* How to write code that other people can read and understand 
+
+
+
+## Graded Components
+
+* Midterm (2): 30%  
+* Final      : 30 % 
+* Hwks       : 10%
+* Labs       : 30%
+* Programming Assignment (1): 2% Extra Credit
+
+## Final Grade Assignment
+
+The formula to determine your course grade average is explained in the table below.
+<table border="2">
+  <tr>
+    <td>A+</td>
+    <td>97-100</td>
+    <td>A</td>
+    <td>93-97</td>
+    <td>A-</td>
+    <td>90-93</td>
+  </tr>
+  <tr>
+    <td>B+</td>
+    <td>87-90</td>
+    <td>B</td>
+    <td>83-87</td>
+    <td>B-</td>
+    <td>80-83</td>
+  </tr>
+  <tr>
+    <td>C+</td>
+    <td>77-80</td>
+    <td>C</td>
+    <td>73-77</td>
+    <td>C-</td>
+    <td>70-73</td>
+
+  </tr>
+  <tr>
+    <td>D+</td>
+    <td>67-70</td>
+    <td>D</td>
+    <td>63-67</td>
+    <td>D-</td>
+    <td>60-63</td>
+
+  </tr>
+    <td>F</td>
+    <td>Below 60</td>
+
+</table>
+Regardless of any other policies spelled out here, the average used to determine your final letter grade may be no higher than one full letter grade higher than your exam average.
+
+Thus,
+
+-   reasonably good performance on exams is very important to earning a good final grade in the course.
+-   an A or B should not be out of reach for anyone that has a reasonably good mastery of course concepts (enough to earn a B or C on the exams), and puts in hard work on the labs and project points.
+
+To convert final averages to letter grades, a standard 10 point scale will be used, with the upper and lower ends of each range as +/- grades, except
+for A+ grades, see below.  There is no "rounding up"; a grade of 86.9999 is a B and a grade of 87.0000 is a B+.
+
+A+ grades: These may be awarded to the very best performing students in the class—but the cutoff for A+ grades will be determined at the end of the course at the discretion of the instructor (there is no pre-determined cutoff---an average of 97 or more doesn't guarantee you an A+ grade.)
 
 
 ## A Few Course Policies In Brief
@@ -52,159 +141,6 @@ You may NOT:
 * Turn in homework on a day other than when it is due (early or late)
 * Have someone else turn in your homework for you (that will be considered academic dishonesty).
 * Drop it off with the instructor to be graded later.
-
-## What this course is about 
-
-This course is an introduction to Computer Science, and programming. 
-
-Computer Science is the study of <strong>abstractions </strong>and <strong>algorithms</strong>. 
-
-* In Computer Science, an <strong>abstraction</strong> is a useful representation of something from the real world that allows us to work with it more easily or efficiently.
-
-* An <strong>algorithm</strong> is a well-defined, step-by-step sequence of instructions that can be used to mechanically determine the solution to some well-defined problem.
-
-You probably use <strong>abstractions</strong> and <strong>algorithms</strong> every day—for example:
-
-* If you pick up any textbook, you'll probably find an index in the back of the book. The index is an <strong>abstraction</strong>—whether the book is about biology, modern art, political science, or computers, the &quot;way the index works&quot; is the always the same. It is composed of the same pieces (topics and page numbers), and organized in the same way (alphabetically by topic, then lists of page numbers in numerical order from smallest to largest.)
-
-* If you are looking in the index of a U.S. history textbook for &quot;Gettysburg&quot; you'll probably use an <strong>algorithm</strong> to find the entry quickly. Here the input to the algorithm is some topic, and the output is a list of pages on which that topic appears.
-
-* If you are looking for a parking lot on campus, you might use an <strong>abstraction</strong> called a &quot;map&quot; to locate the parking lot. You know the features of a map, and how it corresponds to the reality of a college campus, and parking spaces. The way a map can work to help you find a parking lot (or garage) is the same whether it's a map of UCSB, Downtown Santa Barbara, or the Staples Center in LA.
-
-* If you are searching through a parking lot (or garage) to either (a) find a parking space, or (b) determine that there are no spaces left, you probably use an <strong>algorithm</strong> to do that—again, without even thinking about what you are doing.
-
-
-## Algorithms have to be both designed, and &quot;coded&quot; so the computer can carry them out 
-
-In the case of using an index, this is probably an algorithm you may have learned in grade school, and it has been so long since you learned it, that now you don't even think about it—you just do it. Finding a space in a parking lot—and knowing when to give up and look elsewhere—is &quot;just common sense&quot;; this probably isn't something you were ever &quot;taught&quot;, or even have to think very much about. You just do it.
-
-Computers don't currently have this capability—i.e. the capability to &quot;pick up things by common sense&quot;—and it seems unlikely that they  will within our lifetime—unless there are major breakthroughs in the field of Artificial Intelligence. Such breakthroughs have been predicted for a while, but they haven't happened yet. (Maybe you'll be the one to figure out how to achieve this!)
-
-So, for the time being at least, it falls to humans to design algorithms that computers can use to solve problems. In many cases, these algorithms are &quot;just common sense&quot;—the computer equivalent of looking for an empty parking space in a parking lot (and knowing when to give up). Algorithms like this are easy to design. Many of the algorithms we'll see in this course are like that.
-
-In other cases, the algorithms are very complex, or very subtle, and coming up with them is a deep intellectual challenge. Furthermore, the impact of a better algorithm on society can be very large. For example, new algorithms in the field of computational science—modeling chemical and biological reactions with computer simulations—can lead to breakthroughs such as new drugs to fight disease, or renewable sources of energy.
-
-And often, what goes along with finding a good algorithm is finding a good abstraction of the real world concepts we are interested in: cells, molecules, oil fields, words, sentences, students, courses, GPAs, etc. Algorithms and abstractions really go hand-in-hand.
-
-## Coding, or Writing Software, or Programming
-
-Coding is expressing algorithms in a programming language.
-
-Human languages such as English and Spanish are not very well suited for expressing algorithms—at least not for expressing them to a computer (they have their problems for communicating with humans too!). So, special languages are used. In this course, we'll learn the Python programming language. We choose Python rather than Java or C++ because:
-
-* If you are learning your first programming language, Python is easier to learn than the others
-* Learning Python provides a good foundation for learning C, C++ or Java
-* If you only learn one programming language, Python is a good choice—in spite of being easy to learn, it is not a &quot;toy&quot; language by any means. It is widely used by scientists and web application developers just for starters. Many internal systems at Google are based on Python code.
- 
-This course provides you with the opportunity to become a pretty good beginning programmer, and be well prepared for an intermediate programming course such as CS16 (the first course that counts towards the CS major at UCSB, and which requires at least one quarter of prior programming experience.)
-
-I say that the course &quot;provides an opportunity,&quot; because you will only become a good beginning-level programmer if <strong>you</strong> put a lot of time and effort into this course—that is true no matter how much thought and attention I put in my lectures, assignments, and exams
-
-## The swimming/guitar/painting analogy
-
-You cannot learn to swim, play guitar, or paint from a textbook or a lecture. You can only:
-
-* learn  to swim by spending many hours in the pool
-* learn to play guitar by spending many hours playing the instrument
-* learn to paint by spending many hours putting brush to canvas
-
-The same is true of programming. Programming is not a series of facts to be memorized—you cannot &quot;cram&quot; for a computer science exam. You must practice, practice, practice.
-
-<div style="page-break-before:always;">
-&nbsp;
-</div>
-
-
-![Python cartoon](https://foo.cs.ucsb.edu/8wiki/LocalImages/python.jpg)
-
-(Image credit: Randall Munro http://xkcd.com/353/)
-
-# What you need to learn to become <br />a skilled beginning level programmer
-So, what is it that you need to know to be a skilled beginning-level programmer in Python? Here's the  list of what you'll need to be ready for CMPSC&nbsp;16 (aka CS16, the next programming course):
-
-<table border="1" cellspacing="1" cellpadding="1" id="topicTable">
-  <tr>
-    <td><ul class="style11">
-      <li>Problem solving
-        <ul>
-            <li>breaking down a problem into a sequence of steps</li>
-          <li>abstracting specific problems into general ones<br />
-            and finding general solutions</li>
-        </ul>
-      </li>
-      <li>Memory concepts
-        <ul>
-            <li>variables, primitive vs. reference variables, name, type, value</li>
-          <li>assignment statements</li>
-          <li>scope of variables</li>
-        </ul>
-      </li>
-      <li>Control structures
-        <ul>
-            <li>for loops, if/else, while loops</li>
-        </ul>
-      </li>
-      <li>Lists in Python (similar to arrays in other languages)
-        <ul>
-            <li>index vs. value, finding sum, min, max, average, count of elements matching some condition, making a new list of elements containing only those that match some condition</li>
-        </ul>
-      </li>
-    </ul>    </td>
-    <td><ul class="style11">
-      <li>Functions
-        <ul>
-            <li>function call vs. function definition</li>
-          <li>formal vs. actual parameters (arguments)</li>
-        </ul>
-      </li>
-      <li>Testing
-        <ul>
-            <li>How to test your code</li>
-        </ul>
-      </li>
-      <li>Input/output concepts
-        <ul>
-            <li>Writing to the terminal</li>
-          <li>Reading from the keyboard</li>
-          <li>Reading and writing to files</li>
-          <li>Neatly formatting output</li>
-        </ul>
-      </li>
-      <li>Program style
-        <ul>
-            <li>How to write code that other people can read and understand</li>
-        </ul>
-      </li>
-    </ul>    </td>
-  </tr>
-</table>
-
-
-
-Final Course Grades
-===================
-
-The formula to determine your course grade average is explained in the table below.
-
-Regardless of any other policies spelled out here, the average used to determine your final letter grade may be no higher than one full letter grade higher than your exam average.
-
-Thus,
-
--   reasonably good performance on exams is very important to earning a good final grade in the course.
--   an A or B should not be out of reach for anyone that has a reasonably good mastery of course concepts (enough to earn a B or C on the exams), and puts in hard work on the labs and project points.
-
-To convert final averages to letter grades, a standard 10 point scale will be used, with the upper and lower ends of each range as +/- grades, except
-for A+ grades, see below.  There is no "rounding up"; a grade of 86.9999 is a B and a grade of 87.0000 is a B+.
-
-A+ grades: These may be awarded to the very best performing students in the class—but the cutoff for A+ grades will be determined at the end of the course at the discretion of the instructor (there is no pre-determined cutoff---an average of 97 or more doesn't guarantee you an A+ grade.)
-
-| Grade Item                                                                   | Percentage of Final Grade |
-|------------------------------------------------------------------------------|---------------------------|
-| Midterm (2)                                                                    | 30 %                      |
-| Final                                                                        | 30 %                      |
-| Hwks                                                                          |10%|
-| Labs                                                                          |30%|
-
 
 
 <div style="page-break-before:always;">
@@ -228,9 +164,8 @@ paper during class.
 Missing homework/in-class activities: Drop the lowest 3
 -------------------------------------------------------
 
-Homeworks will be distributed every Tuesday in lecture, and they are due during your scheduled lab section on Wednesdays.
+Homeworks will be distributed in lecture, and they are due during your scheduled lab section.
 
-Labs are assigned every Wednesday during your section and are due at midnight the following Tuesday.
 
 If you miss a class or section, you miss the opportunity for the points on that
 in-class assignment, or homework that was due. Period.
@@ -345,6 +280,12 @@ This syllabus is as accurate as possible, but is subject to change at
 the instructor's discretion, within the bounds of UC policy.
 
 (end of syllabus)
+
+
+<div style="page-break-before:always;">
+&nbsp;
+</div>
+
 
 </div>
 
