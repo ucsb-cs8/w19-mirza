@@ -23,9 +23,9 @@ main_dropdown:
 
 
 offerings:
-   title: "W19 Matni"
+   title: "W19 Mirza"
    url: /	
-   baseurl: /w19-matni
+   baseurl: /w19-mirza
    items:
       - title: "W19 Matni"
         url: /
