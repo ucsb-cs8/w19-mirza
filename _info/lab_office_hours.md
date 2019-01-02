@@ -1,18 +1,23 @@
 ---
-title: "Lab and Professor Office Hours"
+title: "Lab and Office Hours"
 layout: default
 ready: true
 ---
 
-# {{page.title}}
+# Professor Mirza's Office Hours
+
+* Location: HFH 1155
+* Tuesdays and Thursdays, 4p - 5p, Fridays: 2p -3:20p
+
+
+# Lab Hours
+
+* Closed labs will be held in Phelps 3525 on {{ site.lab_times}}.
+* Open labs will be held in Phelps 3525 on Tuesdays, and in Phelps 2510 on all other days.
 
 <style>
-iframe { width: 100%; height: 1400px; overflow: scroll; }  
+iframe { width: 100%;height:880px; overflow: scroll; }  
 </style>
 
-  
-
-Closed labs will be held on {{ site.lab_times}} in Phelps 3525.
-Open labs will be held in Phelps 3525 on Tuesdays, and in Phelps 2510 on all other days.
-
-<iframe src="https://calendar.google.com/calendar/embed?mode=AGENDA&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=ucsb.edu_760irs3sq39ukkker6l89gaf4g%40group.calendar.google.com&amp;color=%2323164E&amp;ctz=America%2FLos_Angeles" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+ 
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSg2XGFCZeRuZrWDMZcCpTT9ZX_ww54DCKuFrSRxmc-iCRMRWYxOASBGnRKQbUhxHFuM4NMOgNltx_5/pubhtml?gid=1022467944&single=true"></iframe>

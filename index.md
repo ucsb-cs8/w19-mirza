@@ -2,11 +2,11 @@
 title: "CS8, W19, Mirza"
 ---
 
-{% include cs8-mirza-logo.html %}
 
-# {{site.course}}, {{site.quarter}} with Prof. Mirza
+## {{site.course}} {{site.quarter}}, Mirza
 
 {% include collapse-button.html label="Information" id="info-list" %}
+
 <div class="collapse" id="info-list">
  <div class="card card-body">
   {% include info_list.html %}
@@ -49,5 +49,7 @@ title: "CS8, W19, Mirza"
   {%include exam_table.html %}
  </div>
 </div>
+
+{% include cs8-mirza-logo.html %}
 
 
