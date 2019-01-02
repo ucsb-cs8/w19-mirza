@@ -2,6 +2,7 @@
 title: "CS 8, W19, Mirza
 ---
 
+{% include cs8-mirza-logo.html %}
 
 # {{site.course}}, {{site.quarter}}
 
