@@ -4,7 +4,7 @@ title: "CS8, W19, Mirza"
 
 
 ## {{site.course}} {{site.quarter}}, Mirza
-<br>
+{% include cs8-mirza-logo.html %}
 
 {% include collapse-button.html label="Information" id="info-list" %}
 
@@ -29,19 +29,13 @@ title: "CS8, W19, Mirza"
  </div>
 </div>
 
-{% include collapse-button.html label="Lab" id="lab" %}
+{% include collapse-button.html label="Labs and Project" id="lab" %}
 <div class="collapse" id="lab">
  <div class="card card-body">
   {% include lab_table.html %}
  </div>
 </div>
 
-{% include collapse-button.html label="Programming Assignments" id="pa" %}
-<div class="collapse" id="pa">
- <div class="card card-body">
-  {% include pa_table.html %}
- </div>
-</div>
 
 
 {% include collapse-button.html label="Exams" id="exams" %}
@@ -51,6 +45,6 @@ title: "CS8, W19, Mirza"
  </div>
 </div>
 
-{% include cs8-mirza-logo.html %}
+
 
 

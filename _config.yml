@@ -15,7 +15,7 @@ github_url: https://github.com/ucsb-cs8/w19-mirza
 qtr: "W19"
 quarter: "Winter 2019"
 ta_names: "Mohith Pukale, Anacaren Ruiz"
-lab_times: "Tuesdays: 9a, 10a, 11a, noon"
+lab_times: "Wednesdays: 9a, 10a, 11a, noon"
 instructor: "Diba Mirza"
 lecture_times: "TR 2:00p-3:15p"
 lecture_location: "CHEM 1171"
@@ -34,11 +34,11 @@ instructor_url: https://ucsb-cs8.github.io/instructor
 cal_dates: >
   [
   {"label":"First day of classes", "date":"2019-01-07" },
-  {"label":"Univ Holiday: MLK Jr. Day", "date":"2019-01-21" },
+  {"label":"Univ Holiday", "date":"2019-01-21" },
   {"label":"Drop deadline (no W grade)","date":"2019-02-04" },
-  {"label":"Univ Holiday: President's Day", "date":"2019-02-18" },
-  {"label":"Withdrawal petition deadline", "date":"2019-03-15" },
-  {"label":"Last day of classes", "date":"2019-03-22" },            
+  {"label":"Univ Holiday", "date":"2019-02-18" },
+  {"label":"W19 Instruction Ends", "date":"2019-03-15" },  
+  {"label":"W19 Quarter Ends", "date":"2019-03-22" }          
   ]
 
 kramdown:

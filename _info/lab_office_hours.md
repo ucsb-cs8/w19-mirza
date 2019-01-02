@@ -13,7 +13,7 @@ ready: true
 # Lab Hours
 
 * Closed labs will be held in Phelps 3525 on {{ site.lab_times}}.
-* Open labs will be held in Phelps 3525 on Tuesdays, and in Phelps 2510 on all other days.
+* Open labs will be held in the evenings in Phelps 3525 on Wednesdays (same day as closed labs), and in Phelps 2510 on all other days. Please check the detailed schedule below
 
 <style>
 iframe { width: 100%;height:880px; overflow: scroll; }  

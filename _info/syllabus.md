@@ -135,7 +135,7 @@ A+ grades: These may be awarded to the very best performing students in the clas
    * If you are working with a pair partner you must make sure that you add your partner on the assignment on gradescope before you begin the assignment. All parts of the assignment should be completed together using the pair programming style.
 * Attendance is required at all lectures and labs (discussion sections) and is checked via participation using the iclickers
   * I recognize that some absences (e.g. minor illnesses, mishaps, etc.) are unavoidable.  Litigating whether each of these is "excused" or not isn't a good use of anyone's time, so instead we just drop the lowest three grades from everyone's homework/in-class assignment grades.  In this way, absenses (or failure to turn in homework) does not unduly penalize your grade unless it becomes excessive.
-* <strong>You</strong> must turn in your homework in your registered lab section
+* <strong>You</strong> must turn in your homework in your registered lab section on the due date
 
 
 You may NOT: 
@@ -164,7 +164,7 @@ paper during class.
 
 ## Missing homework/in-class activities
 
-Homeworks will be distributed in lecture, and they are due during your scheduled lab section.
+Homeworks will be distributed in lecture, and they should be turned in in labs on the due date 
 
 
 If you miss a class or section, you miss the opportunity for the points on that
@@ -276,7 +276,5 @@ the instructor's discretion, within the bounds of UC policy.
 &nbsp;
 </div>
 
-
-</div>
 
 
