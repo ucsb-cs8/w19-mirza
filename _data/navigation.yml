@@ -35,12 +35,20 @@ offerings:
         baseurl: /w19-mirza
 
 offering_links:
-  - title: Hwk
-    url: /hwk_list/
-    description: "Homework Assignments"
-  - title: Lab
-    url: /lab_list/
-    description: "Lab Assignments"
+  - title: Assignments
+    dropdown:
+    - title: Hwk
+      url: /hwk_list/
+      description: "Homework Assignments"
+    - title: PA
+      url: /pa_list/
+      description: "Programming Assignments"
+    - title: Lab
+      url: /lab_list/
+      description: "Lab Assignments"
+  - title: Lectures
+    url: /lectures_list/
+    description: "Lectures"
   - title: Exam
     url: /exam_list/
     description: "Exams"

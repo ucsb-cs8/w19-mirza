@@ -1,5 +1,5 @@
 ---
-title: "CS 8, W19, Mirza
+title: "CS 8, W19, Mirza"
 ---
 
 {% include cs8-mirza-logo.html %}
