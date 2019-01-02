@@ -1,5 +1,5 @@
 ---
-title: "W19 Lab and Professor Office Hours"
+title: "Lab and Professor Office Hours"
 layout: default
 ready: true
 ---

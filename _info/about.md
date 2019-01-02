@@ -17,9 +17,9 @@ Not open for credit to students who have completed Computer Science 16 or Engine
 Introduction to computer program development for students with little to no programming experience. Basic programming concepts, variables and expressions, data and control structures, algorithms, debugging, program design, and documentation.
 
 </div>
+	
 
-
-## What this course is about 
+## What this course is about  
 
 This course is an introduction to Computer Science, and programming. 
 
