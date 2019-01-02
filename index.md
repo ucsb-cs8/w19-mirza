@@ -4,6 +4,7 @@ title: "CS8, W19, Mirza"
 
 
 ## {{site.course}} {{site.quarter}}, Mirza
+<br>
 
 {% include collapse-button.html label="Information" id="info-list" %}
 

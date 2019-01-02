@@ -22,7 +22,17 @@ ready: true
 * iclicker: Used in class participation (purchase at the book store)
 
 
+## Graded Components
+
+* Midterm (2): 30%  
+* Final      : 30 % 
+* Hwks       : 10%
+* Labs       : 30%
+* Programming Assignment (1): 2% Extra Credit
+
 ## What you will learn in this course
+
+This course is an introduction to Computer Science, and programming.
 So, what is it that you need to know to be a skilled beginning-level programmer in Python? Here's the  list of what you'll need to be ready for CMPSC&nbsp;16 (aka CS16, the next programming course):
 
 #### Problem solving
@@ -60,14 +70,7 @@ So, what is it that you need to know to be a skilled beginning-level programmer 
 * How to write code that other people can read and understand 
 
 
-
-## Graded Components
-
-* Midterm (2): 30%  
-* Final      : 30 % 
-* Hwks       : 10%
-* Labs       : 30%
-* Programming Assignment (1): 2% Extra Credit
+More information about this course is available at [this link](/w19-mirza/info/about/)
 
 ## Final Grade Assignment
 
@@ -123,17 +126,16 @@ for A+ grades, see below.  There is no "rounding up"; a grade of 86.9999 is a B 
 
 A+ grades: These may be awarded to the very best performing students in the class—but the cutoff for A+ grades will be determined at the end of the course at the discretion of the instructor (there is no pre-determined cutoff---an average of 97 or more doesn't guarantee you an A+ grade.)
 
-
 ## A Few Course Policies In Brief
 
 * If you are registered for another UCSB course  that overlaps with this one, you MUST HAVE specific written permission from both instructors, or I am within my rights to give you a failing grade on any work you miss as a result, and will NOT make any accommodations for you.  This includes exams.
 * You are permitted one sheet of notes on exams—details later on the syllabus.
 * Collaboration is only permitted when specifically allowed for—otherwise, you must do your own work.
-   * On most homework assignments  you may collaborate with at most one other person (who must be named).
+   * On most homework assignments you may collaborate with at most one other person (who must be named).
+   * If you are working with a pair partner you must make sure that you add your partner on the assignment on gradescope before you begin the assignment. All parts of the assignment should be completed together using the pair programming style.
 * Attendance is required at all lectures and labs (discussion sections) and is checked via participation using the iclickers
   * I recognize that some absences (e.g. minor illnesses, mishaps, etc.) are unavoidable.  Litigating whether each of these is "excused" or not isn't a good use of anyone's time, so instead we just drop the lowest three grades from everyone's homework/in-class assignment grades.  In this way, absenses (or failure to turn in homework) does not unduly penalize your grade unless it becomes excessive.
-* <strong>You</strong> must turn in your homework by TBD
-
+* <strong>You</strong> must turn in your homework in your registered lab section
 
 
 You may NOT: 
@@ -148,9 +150,8 @@ You may NOT:
 </div>
 
 
+## Attendance
 
-Attendance
-==========
 
 This course moves quickly. So attendance is very important.  This is even more true in the summer.
 
@@ -161,8 +162,7 @@ These things you have to turn in will be a combination of in-class
 activities, and homework completed outside of class, but handed in on
 paper during class.
 
-Missing homework/in-class activities: Drop the lowest 3
--------------------------------------------------------
+## Missing homework/in-class activities
 
 Homeworks will be distributed in lecture, and they are due during your scheduled lab section.
 
@@ -176,16 +176,14 @@ drop the lowest 3 homework/in-class-assignment grades (which may be
 zeros if you miss an assignment.) Each homework and in-class-activity
 will be of equal value (100 pts).
 
-Notes sheets on exams
----------------------
+## Notes sheets on exams
 
 -   You are permitted one 8.5 x 11 (standard US letter size paper) sheet of notes for each exam.
 -   You are permitted only one sheet per exam.
 -   Your notes sheet will be collected and WILL NOT BE RETURNED
 -   So, if you need a copy of it, make a copy BEFORE you come to the exam.
 
-Questions about grades
-----------------------
+## Questions about grades
 
 **Summary: regrade requests must be made only on GradeScope, and always within one week.**
 
@@ -234,8 +232,7 @@ long line of students), then you lose the right to appeal your grade.
 </div>
 
 
-Late Labs
----------
+## Late Labs
 
 The policy is simple, and is based on the idea that the primary
 purpose of the deadlines is to allow the TA manage his/her
@@ -251,30 +248,23 @@ So:
 -   We will grade late labs ONLY if it creates no extra inconvenience for the graders, and we WILL impose a penalty between 10-20% (see the individual grading rubrics for the labs.)
 -   There is NO GUARANTEE that late labs will be graded at all. The TA will simply start work at some point after the deadline, and grade until he/she is finished. At that time, he/she will "close the books" on that particular lab, and any work not submitted at that time will NOT be considered.
 
-Accommodations for disabilities
--------------------------------
+## Accommodations for disabilities
 
 Students with disabilities may request academic accommodations for exams online through the UCSB Disabled Students Program at http://dsp.sa.ucsb.edu/. Please make your requests for exam accommodations through the online system as early in the quarter as possible to ensure proper arrangement.
 
-Managing stress
----------------
+## Managing stress
 
 Personal concerns such as stress, anxiety, relationships, depression, cultural differences, can interfere with the ability of students to succeed and thrive. For helpful resources, please contact UCSB Counseling & Psychological Services (CAPS) at 805-893-4411 or visit http://counseling.sa.ucsb.edu/ .
 
-Responsible scholarship
------------------------
+## Responsible scholarship
 
 Honesty and integrity in all academic work is essential for a valuable educational experience.  The Office of Judicial Affairs has policies, tips, and resources for proper citation use, recognizing actions considered to be cheating or other forms of academic theft, and students’ responsibilities, available on their website at: http://judicialaffairs.sa.ucsb.edu.  Students are responsible for educating themselves on the policies and to abide by them.
 
 Furthermore, for general academic support, students are encouraged to visit Campus Learning Assistance Services (CLAS) early and often. CLAS offers instructional groups, drop-in tutoring, writing and ESL services, skills workshops and one-on-one consultations. CLAS is located on the third floor of the Student Resource Building, or visit http://clas.sa.ucsb.edu
 
 
-<div style="page-break-before:always" markdown="1">
+## Standard Disclaimer
 
-
-
-Standard Disclaimer
--------------------
 
 This syllabus is as accurate as possible, but is subject to change at
 the instructor's discretion, within the bounds of UC policy.

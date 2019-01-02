@@ -7,7 +7,7 @@ ready: true
 # Professor Mirza's Office Hours
 
 * Location: HFH 1155
-* Tuesdays and Thursdays, 4p - 5p, Fridays: 2p -3:20p
+* Time: Thursdays, 3:30p - 4:30p, Fridays: 2p - 3p, or by appointment
 
 
 # Lab Hours
