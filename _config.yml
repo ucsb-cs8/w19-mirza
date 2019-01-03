@@ -50,7 +50,7 @@ include:
   - _pages
 
 timezone: America/Los_Angeles
-
+suppress_footer: true
 collections:
   hwk:
     output: true
