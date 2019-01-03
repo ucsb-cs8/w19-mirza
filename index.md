@@ -2,8 +2,8 @@
 title: "CS8, W19, Mirza"
 ---
 
-
 ## {{site.course}} {{site.quarter}}, Mirza
+
 {% include cs8-mirza-logo.html %}
 
 {% include collapse-button.html label="Information" id="info-list" %}
