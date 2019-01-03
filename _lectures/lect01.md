@@ -3,19 +3,27 @@ num: "lect01"
 lecture_date: 2019-01-07
 desc: "Orientation to the course"
 ready: true
-pdfurl: /lectures/pdf/lect1.pdf
+pdfurl: /lectures/pdf/lect01.pdf
 annotatedpdfurl: /lectures/lect1_ann.pdf
 annotatedready: false
 ---
 
 
+# Intro to Course Logistics
+
+* Review the syllabus at this link:  <{{site.url}}/info/syllabus/>
+
 # Learning Something New
 
 * Basketball: drills vs. playing the game
-
 * Swimming, Painting, Guitar
 
-* Fixed vs. Growth Mindset
+# Intro to the Unix environment
+
+* Unix file system
+* Navigating the file system using Command Line
+* Learn a few unix commands: ls, pwd, mkdir, cd, cp, mv
+* Remote access with ssh
 
 # Python REPL (Read Eval Print Loop)
 
@@ -49,9 +57,6 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 Note that `**` is right associative, not left associative.
 
-# The textbook and the homework
-
-* Look over H00, H01, shown in the calendar.
 
 # IDLE and Python
 

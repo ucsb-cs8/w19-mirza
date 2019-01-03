@@ -67,10 +67,10 @@ offering_links:
          url: https://gauchospace.ucsb.edu
          description: "Overall Grade Information"
        - title: GradeScope
-         url: https://gradescope.com
+         url: https://www.gradescope.com/courses/34829
          description: "HW and Lab Grades"
        - title: Piazza
-         url: https://piazza.com
+         url: https://piazza.com/class/jqgy3yn67iql6
          description: "Q&A Forum"
 
 
