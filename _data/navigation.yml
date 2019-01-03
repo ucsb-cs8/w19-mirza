@@ -27,12 +27,13 @@ offerings:
    url: /	
    baseurl: /w19-mirza
    items:
-      - title: "W19 Matni"
-        url: /
-        baseurl: /w19-matni
       - title: "W19 Mirza"
         url: /
         baseurl: /w19-mirza
+      - title: "W19 Matni"
+        url: /
+        baseurl: /w19-matni
+ 
 
 offering_links:
   - title: Assignments
