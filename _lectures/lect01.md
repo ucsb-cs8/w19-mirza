@@ -1,6 +1,6 @@
 ---
 num: "lect01"
-lecture_date: 2019-01-07
+lecture_date: 2019-01-08
 desc: "Orientation to the course"
 ready: true
 pdfurl: /lectures/pdf/lect01.pdf
