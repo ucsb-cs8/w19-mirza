@@ -16,15 +16,15 @@ Your first lab for this week is an introduction to programming on CSIL and in th
 
 This lab must be done individually.
 
-## Submit ic00
+## Use ic00 to find a partner, then submit it at the end of your section
 
-In the next few labs you will work with a programming partner. To help us match you with a suitable partner, please submit [ic00](/hwk/ic00/) to the TA in your section.
+In the next few labs you will work with a programming partner. In this section the TA will lead you through an activity to help you find a suitable partner. Note down the name of your partner in the last question of ic00 and submit it to the TA in your section.
 
 ## Goals for this lab
 
 By the time you have completed this lab, you should be able to:
 
-* use the computers in Phelps 3525 (and other labs like CSIL) to do basic things such as:
+* Use the computers in Phelps 3525 (and other labs like CSIL) to do basic things such as:
    * perform basic management of directories and files
    * create Python progams in IDLE 
    * submit an assignment using the gradescope system
@@ -54,9 +54,8 @@ If your account doesn't work, ask a TA for assistance.
 
 Phelps 3525 is only available during your weekly scheduled discussion section and during open lab hours (see the lab and office hours calendars for details).
 
-At other times during the week, you can work in CSIL, the &quot;Computer Science Instructional Lab&quot;.
-
-The CSIL lab, by the way, is on the ground floor of Harold Frank Hall.  The glass front doors of Harold Frank Hall look out towards the ocean.  Stand just outside those doors with your back towards the ocean.   The doors to the CSIL lab are just on your right.  (If you can't look over your shoulder and see an great big tree, with the ocean just behind it, you are on the wrong side of the building.)   Hours vary--its open almost all the time during the regular school year
+At other times during the week, you can work in Phelps - 3525 or 2510.
+Phelps 3525 is the lab that you are currently in. Unlike Phelps 2510 it has computers. So, if you plan to work in Phelps 2510 bring your own laptop if you have one. The TAs and tutors can help you get your laptop setup.
 
 ## Step 2: Bring up a "terminal" 
  
@@ -187,7 +186,7 @@ We will save the file under the name `hello.py`&mdash;it is <strong>very importa
 That's it!   Now, you can also add, on the first line, a *comment* with your name, and information about the course, for example:
 
 ```python
-# Chris Gaucho, for CMPSC 8, Fall 2018
+# Chris Gaucho, for CMPSC 8, Winter 2019
 print ('Hello, World!')
 ```
 
