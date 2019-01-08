@@ -6,14 +6,13 @@ ready: true
 
 # Professor Mirza's Office Hours
 
+* Thursdays, 3:30p - 4:30p, Fridays: 2p - 3p, or by appointment
 * Location: HFH 1155
-* Time: Thursdays, 3:30p - 4:30p, Fridays: 2p - 3p, or by appointment
-
 
 # Lab Hours
 
-* Closed labs will be held in Phelps 3525 on {{ site.lab_times}}.
-* Open labs will be held in the evenings in Phelps 3525 on Wednesdays (same day as closed labs), and in Phelps 2510 on all other days. Please check the detailed schedule below
+* "Closed" labs refer to your sections that you are registered for on GOLD. These are (50 minute discussion sections) and will be held in Phelps 3525 on {{ site.lab_times}}.
+* "Open" labs refer to times that you can get help from TAs and tutors outside of your scheduled labs. These will be held in the evenings in Phelps 3525 on Wednesdays (same day as closed labs), and in Phelps 2510 on all other days. Please check the detailed schedule below:
 
 <style>
 iframe { width: 100%;height:880px; overflow: scroll; }  
