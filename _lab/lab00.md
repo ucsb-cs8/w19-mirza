@@ -50,8 +50,9 @@ If you ever forget the password to your ECI/CSIL account, you can reset it here:
 
 <https://accounts.engr.ucsb.edu/maintain/>
 
-If your account doesn't work, ask a TA for assistance.
+If your account doesn't work, ask a TA for assistance. Please first look through the [knowledge base](https://doc.engr.ucsb.edu/display/EPK/New+UCSB+Community+Member+Information) and post on Piazza before contacting ECI. If nothing else works contact the ECI Help Desk at <a href="mailto:help@engineering.ucsb.edu">help@engineering.ucsb.edu</a>.
 
+## Note about the labs
 Phelps 3525 is only available during your weekly scheduled discussion section and during open lab hours (see the lab and office hours calendars for details).
 
 At other times during the week, you can work in Phelps - 3525 or 2510.
