@@ -10,7 +10,7 @@ annotatedpdfurl: /lectures/lect02_ann.pdf
 
 # Resources from lecture
 
-* [Link to all code written in lecture](https://github.com/ucsb-cs8-w19/-mirza/cs8-w19-lecture-code)
+* [Link to all code written in lecture](https://github.com/ucsb-cs8-w19-mirza/cs8-w19-lectures)
 
 ## Announcements: 
 

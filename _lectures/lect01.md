@@ -8,6 +8,9 @@ annotatedpdfurl: /lectures/lect1_ann.pdf
 annotatedready: false
 ---
 
+# Resources from lecture
+
+* [Link to all code written in lecture](https://github.com/ucsb-cs8-w19-mirza/cs8-w19-lectures)
 
 # Intro to Course Logistics
 
