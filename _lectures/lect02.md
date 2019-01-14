@@ -1,7 +1,7 @@
 ---
 num: "lect02"
 lecture_date:  2019-01-10
-desc: "Python Strings and Functions"
+desc: "Python Strings"
 ready: true
 pdfurl: /lectures/pdf/lect02.pdf
 annotatedpdfurl: /lectures/lect02_ann.pdf
@@ -24,14 +24,46 @@ annotatedpdfurl: /lectures/lect02_ann.pdf
 * Storing data using variables
 * More than just a calculator (working with other data types)
 
- 
-## Strings
+# Some more Terminology
+
+```
+Syntax: Grammar, how you say something
+Semantics: Meaning, what it does.
+
+syntactically incorrect PI equals 3.14159
+semantically incorrect PI = "apple"
+'''
+
+'''
+
+'''
+Strings: Collections of characters (a-z, A-Z, 0-9 + special characters)
+Indexing strings and substrings
+    - In a string, we can extract certain pieces from it.
+    - This is known as "parsing" a string
+    - Positions in a string start at index 0
+
+schoolName = "UCSB"
+print(len(schoolName)) # 4
+print(type(schoolName)) # str
+print(schoolName[0])
+print(schoolName[3])
+#print(schoolName[4]) #ERROR
+print(schoolName[-1]) # B - refers to the last index
+#print(schoolName[-5]) # ERROR
+
+#Extract a substring
+print(schoolName[1:3]) # from position 1 up to (but not
+                       # including) position 3
+
+print("Does", school, "contain 'S'?", 'S' in school)
+
 * Indexing strings and substrings
     - In a string, we can extract certain pieces from it.
     - This is known as "parsing" a string
     - Positions in a string start at index 0
 
-```python
+
 schoolName = "UCSB"
 print(len(schoolName)) # 4
 print(type(schoolName)) # str
@@ -73,41 +105,7 @@ taxAmount = totalBill * TAX_RATE
 tipAmount = totalBill * (tipPercentage / 100)
 print("The total amount to pay is $", totalBill + taxAmount + tipAmount)
 
-
-## Functions
-# Function definition
-def double(n):
-    ''' Returns 2 times the parameter '''
-    return 2 * n
-
-'''
-- The "def" indicates a function definition
-- "double" is the name of the function
-- (n) denotes the parameter(s) of a function
-- name + parameters is known as a function SIGNATURE
-- The actual code (instructions) (ex: return 2 * n)
-is known as the function BODY
-- Note: The function body needs to be indented so python
-can associate the body's instructions as part of the
-function's definition
-- If the function returns a value, then a RETURN statement
-is needed
-'''
-# Examples calling double()
-print(double(10)) # --> print(20)
-print(double(double(2))) # --> print(double(4)) --> print(8)
-value = double(5) + double(6)
-print(value)
-
-print(double("2"))
-print(type(double("2")))
-print(double(2.5))
-print(type(double(2.5)))
-
 ```
-
-
-
 
 
 
