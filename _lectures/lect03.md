@@ -53,6 +53,12 @@ print(type(double("2")))
 print(double(2.5))
 print(type(double(2.5)))
 print(double([2,4,6]))
+
+# pytest
+Good defensive coding style means that you think about how you would
+test your code.
+* Overview of lab01 and how to use the pytest framework
+
 ```
 
 
