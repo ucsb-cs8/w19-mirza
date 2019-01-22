@@ -10,3 +10,7 @@ annotatedpdfurl: /lectures/lect06_ann.pdf
 # Resources from lecture
 
 * [Link to all code written in lecture](https://github.com/ucsb-cs8-w19-mirza/cs8-w19-lectures)
+
+#Topics
+* Discuss eval vs input
+* Introduce the range function
