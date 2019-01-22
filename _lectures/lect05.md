@@ -1,130 +1,119 @@
 ---
 num: "lect05"
-lecture_date:  2019-01-22
-desc: "Python Modules and Turtle Graphics"
-ready: false
-pdfurl: /lectures/pdf/lect04.pdf
-annotatedpdfurl: /lectures/lect04_ann.pdf
+lecture_date: 2019-01-22
+desc: "Lists, Tuples and Named-tuples"
+ready: true
+pdfurl: /lectures/pdf/lect05.pdf
+annotatedpdfurl: /lectures/lect05_ann.pdf
 ---
 
 # Resources from lecture
 
 * [Link to all code written in lecture](https://github.com/ucsb-cs8-w19-mirza/cs8-w19-lectures)
 
-# Learning Goals
-* Modules - how to use them and look up documentation
-* Designing functions that are READABLE, REUSABLE and DRY (loops)
 
-#Turtle Graphics: Formal introduction to modules  
-
-* Modules are used to group functions
-* Use import to make a module's functions available
-* Any file ending in .py can act as a module
-* import runs all the code in a .py file
-* If we import module_name, we access its functions through
-module_name.function_name
-* To access function_name without having to type the
-module_name prefix, we can use
+#Topics
 
 ```
-from module_name import function_name
+'''
+Lists
+    - A list is a collection of multiple values
+    (similar to how a str is a collection of
+    characters).
+    - Note: In python, lists can be of heterogenous
+    (different) types
+    - Lists can have duplicate values
+'''
+
+'''
+#Examples
+evenNumbers = [2, "4", 6, "8"]
+print(evenNumbers)
+print(type(evenNumbers))
+print(evenNumbers[2])
+print(evenNumbers[-1])
+evenNumbers.append(10)
+print(evenNumbers)
+#print(evenNumbers[1] + evenNumbers[2]) # ERROR
+print(int(evenNumbers[1]) + evenNumbers[2])
+
+print(evenNumbers.pop(1))
+print(evenNumbers)
+print(evenNumbers.pop())
+print(evenNumbers)
+
+names = ["Rick", "Morty", "Summer"]
+names.sort()
+print(names)
+oddNumbers = [5, 3, 1]
+oddNumbers.sort()
+print(oddNumbers)
+names.append(2018)
+print(names)
+names.sort() # ERROR, incompatible types 2018 is int
+print(names)
+'''
+
+
+''' Tuples
+    - A tuple is similar to a list, but with small
+    (but important) differences.
+    - .sort() works for lists, but not tuples
+    - inherently, tuples and lists are different,
+    but logically they seem the same.
+    - can change an element in a list, but can't
+    change them in a tuple.
+'''
+
+'''
+#Examples
+oddNumbers = (1, 3, 5, 7)
+print(oddNumbers)
+print(type(oddNumbers))
+print(oddNumbers[2]) #5
+
+oddNumbers2 = [1, 3, 5, 7]
+oddNumbers2[2] = 9
+print(oddNumbers2)
+# oddNumbers[2] = 9 ERROR, cannot change item in tuple
+#print(oddNumbers)
+
+oddNumbers = (1, 3, 9, 7)
+print(oddNumbers)
+'''
+''' Namedtuples
+    - Package heterogenous things into a multi-
+    attribute item
+    - We can represent more complex data into
+    specific types
+    - Ex: Students
+        - Name, perm, major, DOB, address, GPA,
+        full-time / part-time, international, ...
+    - Creating multi-attribute things is the basis
+    of object oriented programming.
+'''
+'''
+#Example on using namedtuples
+
+# Step 1: Allow your program to use namedtuples.
+from collections import namedtuple
+
+# Step 2: Design your object
+Student = namedtuple("Student", "name perm major GPA")
+# Parameters of function, 1st is name of the namedtuple
+# type (Student).
+# 2nd parameter is a string containing the names of
+# attributes
+
+# Step 3: Create objects
+s1 = Student("John Doe", 1234567, "CS", 3.5)
+s2 = Student("Jane Doe", 7654321, "MUSIC", 3.9)
+
+print("Name of s1:", s1.name)
+print("Perm of s1:", s1.perm)
+print("GPA of s2:", s2.GPA)
+print(s1)
+print(s2)
+print(type(s1))
+'''
 ```
-* The turtle module gives us access to functions for drawing cool graphics. To use this module, as with all modules - first import it as follows:
-
-```
-import turtle
-```
-
-Start by creating a new Turtle object using the special function "Turtle"
-
-```
-jane = turtle.Turtle()
-```
-
-So far we have worked with some basic data types
-
-
-From here on you can customize what jane looks like and command it to move around on your screen. You can do this by calling the functions that the turtle module provides on our turtle jane using the dot notation.
-
-For example, you can make jane look like an actual turtle using the shape function
-
-```
-jane.shape("turtle")
-```
-
-Or change jane's color
-
-```
-jane.color("red")
-```
-
-You can query jane's location on your canvas
-
-```
-jane.xcor()
-jane.ycor()
-```
-
-And finally you can command jane to move forwrad backward and turn left or right 
-
-```
-jane.forward(100)
-jane.backward(100)
-jane.left(90)
-jane.right(90)
-jane.up()          # Lift the turtle's tail to avoid leaving a trail
-jane.goto(100, 20) # Go to location (100,20)
-jane.down()     # Put the tail down to start drawing
-jane.forward(100)
-
-```
-
-To learn about all the turtle functions that you can use type
-
-```
-dir(turtle) or dir(jane)
-```
-
-To learn more about the usage of each function use the "help" function:
-
-```
-help(jane.forward)
-```
-Notice the concept of "abstraction" at work. As the user of the function forward() we don't have to know the details of how it was implemented, we only have to know what the function does, what its parameters are and how to use it. This information is exactly what "help" displays. 
-
-Coding example: 
-* Draw a square: You just wrote an algorithm! 
-* Examine the drawSquare function
-  - How can we make it more reusuable? 
-  - Add a parameter for a user defined width. 
-  - Discuss local vs global variables
-
-* Reuse the code in drawSquare to draw a Rectangle 
-  - this is even more general
-  - Add fill color 
-
-* Draw two rectangles
-
-* Write a function to draw three rectangles
-  - How can we make the implementation of this function more readable? Hint: add a new function to jump between locations
-  - How can we make this function more general/reusable? Hint: Add parameters
-  - Before modifying your code plan it out
-
-* How can we make a more general version of the previous function? What if we wanted to draw 4, 5, 6, ...or some n rectcangles
-  - We could go on adding more lines of code but that doesn't help us come up with a general enough solution. We need something new 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
