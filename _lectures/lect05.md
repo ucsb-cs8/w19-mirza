@@ -4,7 +4,8 @@ lecture_date: 2019-01-22
 desc: "Lists, Tuples and Named-tuples"
 ready: true
 pdfurl: /lectures/pdf/lect05.pdf
-annotatedpdfurl: /lectures/lect05_ann.pdf
+annotatedpdfurl: /lectures/pdf/lect05_ann.pdf
+annotatedready: true
 ---
 
 # Resources from lecture

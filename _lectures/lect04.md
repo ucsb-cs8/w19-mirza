@@ -4,7 +4,8 @@ lecture_date: 2019-01-17
 desc: "Testing and Floating Point inaccuracies"
 ready: true
 pdfurl: /lectures/pdf/lect04.pdf
-annotatedpdfurl: /lectures/lect04_ann.pdf
+annotatedpdfurl: /lectures/pdf/lect04_ann.pdf
+annotatedready: true
 ---
 
 # Resources from lecture

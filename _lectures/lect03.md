@@ -4,7 +4,8 @@ lecture_date:  2019-01-15
 desc: "Python Functions and Test Framework"
 ready: true
 pdfurl: /lectures/pdf/lect03.pdf
-annotatedpdfurl: /lectures/lect03_ann.pdf
+annotatedpdfurl: /lectures/pdf/lect03_ann.pdf
+annotatedready: true
 ---
 
 

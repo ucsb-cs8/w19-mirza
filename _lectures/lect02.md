@@ -4,7 +4,8 @@ lecture_date:  2019-01-10
 desc: "Python Strings"
 ready: true
 pdfurl: /lectures/pdf/lect02.pdf
-annotatedpdfurl: /lectures/lect02_ann.pdf
+annotatedpdfurl: /lectures/pdf/lect02_ann.pdf
+annotatedready: true
 ---
 
 

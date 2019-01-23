@@ -4,8 +4,8 @@ lecture_date: 2019-01-08
 desc: "Orientation to the course"
 ready: true
 pdfurl: /lectures/pdf/lect01.pdf
-annotatedpdfurl: /lectures/lect1_ann.pdf
-annotatedready: false
+annotatedpdfurl: /lectures/pdf/lect01_ann.pdf
+annotatedready: true
 ---
 
 # Resources from lecture
