@@ -8,6 +8,7 @@ due: 2019-1-29 23:59:00.00-7
 csxx: cs8
 ---
 
+## Goals of this lab
 
 In this lab, you'll get more practice with:
 
@@ -15,7 +16,42 @@ In this lab, you'll get more practice with:
 * Testing functions with pytest
 
 
-## This lab must be done solo
+## This lab may be done in pair, or solo
+
+Before you begin working on the lab, please decide if you will work solo or with a partner. We encourage you to work in pairs on this lab. 
+
+
+If you decide to work with a partner:
+
+* Find your partner in the lab and sit on the same computer with them. Your pair partner is the person you indicated on ic00 (check gradescope if you don't remember). If you did not indicate a partner on ic00, please look up the assignment on this spread: [Assigned Pair Partners](https://docs.google.com/spreadsheets/d/1ZziIW4u9scolY31IM1_Q7otIjifB0Yfcmj-Bo5NiKnY/edit?usp=sharing)
+
+* Review the following explanation on [pair programming and Falco's strong-style pair programming](https://tobeagile.com/2017/01/11/strong-style-pairing/).
+
+* Make an agreement to be respectful and work together to maximize your learning benefit.
+
+* There are many ways to do pair programming and we encourage you to:
+   * Work with a partner that is of a similar skill level (or similar confidence) with Python programming.
+   * Find a style that works best for you and your partner.
+      * Many pairs find that switching roles is best done once per "step".
+      * Others may find switching roles after 10, 15, or 20 minute increments works better.
+
+The following arrangement is <strong>NOT OK</strong>.
+
+* Student A and Student B form a pair.
+* Student A works on the lab alone on Wednesday night.
+* Student B obtains the work Student A did on Thursday night and works alone to finish the lab.
+
+<strong>This is *NOT* how pair programming is done!</strong>
+
+There are a few requirements you must follow if you decide to work with a partner:
+
+* You and your partner must attend the same lab section as you.
+* You and your partner must agree to work together outside of lab section in case you do not finish the lab during your lab section. You must agree to reserve at least two hours outside of lab section to work together if needed (preferrably during an open lab hour where you can ask a mentor for help). You are responsible for exchanging contact information in case you need to reach your partner.
+* If you choose to work with a partner for a future lab where pair programming is allowed, then you must choose a partner you have not worked with before.
+* You MUST add your partner on Gradescope when submitting your work <strong>*<u>EACH TIME</u>*</strong> you submit a file(s). After uploading your file(s) on Gradescope, there is a "Group Members" link at the bottom (or "Add Group Member" under "Groups") where you can select the partner you are working with. Whoever uploaded the submission must make sure your partner is part of your Group. Click on "Group Members" -> "Add Member" and select your partner from the list.
+
+Once you and your partner are in agreement, choose an initial driver and navigator, and have the driver log into their account.
+
 
 ## Step 1: Verify that `pytest` is working on the machine you plan to work on
 
@@ -197,4 +233,14 @@ Once everything passes correctly with `pytest`, submit your `{{page.num}}.py` fi
 
 Navigate to the Lab assignment {{page.num}} on Gradescope and upload your `{{page.num}}.py`. 
 Your Gradescope submission will be autograded out of 100 points. 
+
+## Step 9: Set up pytest on your own laptop
+We encourage you to install Python 3.7 and pytest on your personal computer if you have one. If you have a MAC computer, follow the instructions from lab01.
+If you have Windows, please follow this step by step guide:
+
+* [Guide to installing Python (3.7.2) and Pytest on Windows](https://drive.google.com/file/d/1nPCwIA8cBAkiJ-kOKZFjkOskD94jmWYn/view?usp=sharing)
+
+
+
+
 
