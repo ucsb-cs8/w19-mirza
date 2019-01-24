@@ -11,7 +11,7 @@ annotatedpdfurl: /lectures/lect06_ann.pdf
 
 * [Link to all code written in lecture](https://github.com/ucsb-cs8-w19-mirza/cs8-w19-lectures)
 
-#Topics
+# Topics
 * Boolean expressions
 * If-else control structure 
 * Code up a game: fizzbuzz
