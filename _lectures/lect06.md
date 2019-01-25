@@ -5,6 +5,7 @@ desc: "Boolean Expressions, If-else, basics of loops"
 ready: true
 pdfurl: /lectures/pdf/lect06.pdf
 annotatedpdfurl: /lectures/lect06_ann.pdf
+annotatedready: true
 ---
 
 # Resources from lecture
