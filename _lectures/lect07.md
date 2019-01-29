@@ -2,7 +2,7 @@
 num: "lect07"
 lecture_date:  2019-01-29
 desc: "Python Modules and Turtle Graphics"
-ready: false
+ready: true
 pdfurl: /lectures/pdf/lect07.pdf
 annotatedpdfurl: /lectures/lect07_ann.pdf
 ---

@@ -1,7 +1,7 @@
 ---
 num: "lect06"
 lecture_date:  2019-01-24
-desc: "Boolean Expressions, If-else, basics of loops"
+desc: "Boolean Expressions, Conditionals: If-else"
 ready: true
 pdfurl: /lectures/pdf/lect06.pdf
 annotatedpdfurl: /lectures/lect06_ann.pdf
@@ -16,5 +16,4 @@ annotatedready: true
 * Boolean expressions
 * If-else control structure 
 * Code up a game: fizzbuzz
-* Discuss eval vs input
-* Introduce the range function
+
