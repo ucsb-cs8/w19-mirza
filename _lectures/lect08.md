@@ -1,12 +1,16 @@
 ---
 num: "Lecture 8"
-desc: "for loops, iterating through lists and strings using for loops"
+desc: "Midterm review"
 lecture_date:  2019-01-31
 ready: true
 pdfurl: /lectures/pdf/lect08.pdf
 annotatedpdfurl: /lectures/lect08_ann.pdf
 ---
 
+## Midterm review
+
+* We'll go over [midterm from Fall 2018](https://drive.google.com/file/d/1XwMRr6TTAZj0Nx9NMiMrrQ8o4yJXvtht/view?usp=sharing)
+* Discuss common mistakes
 
 ### Common mistakes students made on Fall'18 midterm
 
@@ -36,7 +40,7 @@ Q5:
 * trouble using the type function
 * syntax errors in the if statement (missing the ending colon)
 * using /= instead of !=
-* Assuming \ that the if statement stores the values and tries to use the logic at the end -
+* Assuming that the if statement stores the values and tries to use the logic at the end -
     - EX: type(a) and type(b) and type(c) == int
 
 * Missing the colon in the def statement
@@ -47,7 +51,7 @@ Q5:
 Q6: 
 * Missed that test functions in pytest need to be prefixed with test_
 * Use of assert , forgot the == comparison, just called the function
-* misunderstanding of pytest.approx: passed in call to quadratic
+* misunderstanding of pytest.approx
 
 Q7.1 issues with formatting the output
 Q7.3 missed the print inside the function (possible issue with tracing function calls)
@@ -55,6 +59,7 @@ Q7.3 Assumed that a return is always needed in the function
 Q7.4. Local vs global 
 
 ```
+If time permits we will begin a discussion on loops
 '''
 # Loops
 
