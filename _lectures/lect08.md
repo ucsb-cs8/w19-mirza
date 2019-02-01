@@ -1,10 +1,11 @@
 ---
-num: "Lecture 8"
+num: "lect08"
 desc: "Midterm review"
 lecture_date:  2019-01-31
 ready: true
 pdfurl: /lectures/pdf/lect08.pdf
-annotatedpdfurl: /lectures/lect08_ann.pdf
+annotatedpdfurl: /lectures/pdf/lect08_ann.pdf
+annotatedready: true
 ---
 
 ## Midterm review

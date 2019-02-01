@@ -4,7 +4,8 @@ lecture_date:  2019-01-29
 desc: "Python Modules and Turtle Graphics"
 ready: true
 pdfurl: /lectures/pdf/lect07.pdf
-annotatedpdfurl: /lectures/lect07_ann.pdf
+annotatedpdfurl: /lectures/pdf/lect07_ann.pdf
+annotatedready: true
 ---
 
 # Resources from lecture

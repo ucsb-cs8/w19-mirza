@@ -4,7 +4,7 @@ lecture_date:  2019-01-24
 desc: "Boolean Expressions, Conditionals: If-else"
 ready: true
 pdfurl: /lectures/pdf/lect06.pdf
-annotatedpdfurl: /lectures/lect06_ann.pdf
+annotatedpdfurl: /lectures/pdf/lect06_ann.pdf
 annotatedready: true
 ---
 
