@@ -3,7 +3,7 @@ num: "lect10"
 desc: "While loops and File IO"
 pdfurl: /lectures/pdf/lect10.pdf
 ready: true
-date: 2019-02-14 14:00:00.00-7:00
+lecture_date:  2019-02-14
 ---
 
 ```
