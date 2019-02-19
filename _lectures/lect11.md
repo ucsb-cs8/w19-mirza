@@ -1,9 +1,11 @@
 ---
-num: "lect10"
-desc: "While loops and File IO"
-pdfurl: /lectures/pdf/lect10.pdf
+num: "lect11"
+desc: "While loops"
+pdfurl: /lectures/pdf/lect11.pdf
 ready: true
 lecture_date:  2019-02-14
+annotatedpdfurl: /lectures/pdf/lect11_ann.pdf
+annotatedready: true
 ---
 
 ```
