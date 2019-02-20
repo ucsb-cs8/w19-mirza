@@ -7,6 +7,9 @@ lecture_date:  2019-02-19
 annotatedpdfurl: /lectures/pdf/lect12_ann.pdf
 annotatedready: false
 ---
+# Resources from lecture
+
+* [Link to all code written in lecture](https://github.com/ucsb-cs8-w19-mirza/cs8-w19-lectures)
 
 ```
 # Some tools for the labs

@@ -12,6 +12,10 @@ annotatedready: true
 
 * [Link to all code written in lecture](https://github.com/ucsb-cs8-w19-mirza/cs8-w19-lectures)
 
+# Resources from lecture
+
+* [Link to all code written in lecture](https://github.com/ucsb-cs8-w19-mirza/cs8-w19-lectures)
+
 # Learning Goals
 * Modules - how to use them and look up documentation
 * Designing functions that are READABLE, REUSABLE and DRY (loops)

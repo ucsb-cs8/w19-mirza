@@ -8,6 +8,10 @@ annotatedpdfurl: /lectures/pdf/lect09_ann.pdf
 annotatedready: true
 ---
 
+# Resources from lecture
+
+* [Link to all code written in lecture](https://github.com/ucsb-cs8-w19-mirza/cs8-w19-lectures)
+
 ```
 
 '''
