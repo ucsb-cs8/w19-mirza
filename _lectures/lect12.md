@@ -1,17 +1,20 @@
 ---
 num: "lect12"
-desc: "Files and String Formatting"
+desc: "Files"
 pdfurl: /lectures/pdf/lect12.pdf
 ready: true
 lecture_date:  2019-02-19
 annotatedpdfurl: /lectures/pdf/lect12_ann.pdf
-annotatedready: false
+annotatedready: true
 ---
 # Resources from lecture
 
 * [Link to all code written in lecture](https://github.com/ucsb-cs8-w19-mirza/cs8-w19-lectures)
 
+
 ```
+
+'''
 # Some tools for the labs
 # min, max, round
 
@@ -262,3 +265,4 @@ print("Name is {:12}; age is {:2}; price is ${:0.2}".format(name,age,price))
 # still works if s,d,f is not included, but removing 'f' will look strange
 
 '''
+```
