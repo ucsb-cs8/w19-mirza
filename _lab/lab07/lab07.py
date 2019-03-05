@@ -35,13 +35,13 @@ def getWordPoints(myWord, letterPoints):
   return "stub"
 
 
-def outputWordPointPairs(pointWordList, filename, toFile):
+def outputWordPointPairs(pointWordList, myLetters, toFile):
   '''
   Outputs the contents of pointWordList in a specified format to a file (see lab instructions).
     
   :param pointWordList: a list of tuples to print or output to a file, each tuple 
    contains a (pointValue, word) pair
-  :param filename: a string that you will name the file with if toFile is True
+  :param myLetters: a string that you will use toname the file if toFile is True
   Your function should add the .txt extension to the filename before creating it.
   :param toFile: a boolean to decide whether I want to print to file or not. If True then output to file else output to terminal.
   :return: None
