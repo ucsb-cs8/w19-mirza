@@ -5,7 +5,7 @@ pdfurl: /lectures/pdf/lect13.pdf
 ready: true
 lecture_date:  2019-02-21
 annotatedpdfurl: /lectures/pdf/lect13_ann.pdf
-annotatedready: false
+annotatedready: true
 ---
 
 # Resources from lecture
