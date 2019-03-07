@@ -1,6 +1,6 @@
 ---
 num: "lect16"
-desc: "Recursion (contd)"
+desc: "Recursion"
 pdfurl: /lectures/pdf/lect16.pdf
 ready: false
 lecture_date:  2019-03-12

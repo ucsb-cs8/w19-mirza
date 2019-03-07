@@ -1,6 +1,6 @@
 ---
 num: "lect14"
-desc: "Dictionaries"
+desc: "Lab07 review, intro to Python dictionaries"
 pdfurl: /lectures/pdf/lect14.pdf
 ready: true
 lecture_date:  2019-03-05
