@@ -1,40 +1,38 @@
 # Student(s): (insert name here)
 # Make sure to read the comments for each function.
 
-import pytest
-'''
-  You will write your own test cases (3 - 5 tests per function). 
-  There's an example for each function to test: 
-'''
-####################
-from lab08 import recursiveDigitSum
+def call_counter(func):
+    def helper(*args, **kwargs):
+        helper.calls += 1
+        return func(*args, **kwargs)
+    helper.calls = 0
+    helper.__name__= func.__name__
+    return helper
 
-def test_recursiveDigitSum_0():
-    assert recursiveDigitSum(9999) == 36
 
-# Your tests for recursiveDigitSum...
+@call_counter
+def recursiveDigitSum(n):
+    '''
+    Computes the sum of digits of a positive integer n
+    Your solution must use recursion in order to receive credit.
+    '''
+    return "stub"
 
-####################
-from lab08 import recursiveSubstring
+@call_counter
+def recursiveFactorial(n):
+    '''
+    Computes the factorial of positive integer n
+    Your solution must use recursion in order to receive credit.
+    '''
+    return "stub"
 
-def test_recursiveSubstring_0():
-    assert recursiveSubstring("CS8", "CS") == True
-
-# Your tests for recursiveDigitSum...
-
-####################
-from lab08 import recursiveReverseList
-
-def test_recursiveReverseList_0():
-    assert recursiveReverseList([1,2,3]) == [3,2,1]
-
-# Your tests for recursiveReverseList...
-
-####################
-from lab08 import recursiveAccumulateVowels
-
-def test_recursiveAccumulateVowels_0():
-    assert recursiveAccumulateVowels("apple") == "ae"
-
-# Your tests for recursiveAccumulateVowels...
-
+@call_counter
+def recursiveAccumulateVowels(s):
+    '''
+    The parameter s is a string. This function returns a string that
+    contains only the vowels in the string.
+    - The returned string contains the vowels in order of appearance
+    (for example, "apple" -> "ae").
+    - Your solution must use recursion in order to receive credit.
+    '''
+    return "stub"
