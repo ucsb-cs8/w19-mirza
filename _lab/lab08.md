@@ -34,8 +34,8 @@ In this lab, you will need to create two files:
 
 Starter code is provided for you and are located at (you may need to refresh the page if the links do not load immediately):
 
-* [{{page.num}}.py](https://ucsb-cs8-f18.github.io/lab/lab08/lab08.py)
-* [{{page.num}}\_tests.py](https://ucsb-cs8-f18.github.io/lab/lab08/lab08_student_tests.py)
+* [{{page.num}}.py](https://ucsb-cs8.github.io/w19-mirza/lab/lab08/lab08.py)
+* [{{page.num}}\_tests.py](https://ucsb-cs8.github.io/w19-mirza/lab/lab08/lab08_student_tests.py)
 
 <strong>Before you begin,</strong> you will notice that code has function named "call_counter". You do not need to know / understand this particular function and also you should not delete this function. 
 <strong>Also you will notice </strong> "@call_counter" before each method. This is not a mistake, please do not delete this line as it helps with grading your submission. 
