@@ -65,8 +65,8 @@ i        1
 So, how did our program know which letter combinations were valid words?......We have to specify a file of words, which you can find here: [wordlist.txt](https://ucsb-cs8-w18-wang.github.io/lab/lab07/wordlist.txt).  This file must be downloaded (right click and "save as") and put into your `{{page.num}}` directory before you begin, so do that now.  Note that this file contains a fairly complete list of English words, so beware that there may be some expletive words - please don't hold me personally responsible if you are offended.  Perhaps this will be motivation for some of you to complete the assignment.  
 
 You can choose to start from scratch or use the starter code we have provided here (you may need to refresh the page if the links do not load immediately):
-* <https://ucsb-cs8-f18.github.io/lab/lab07/lab07.py>
-* <https://ucsb-cs8-f18.github.io/lab/lab07/lab07_student_tests.py>
+* `{{page.num}}.py` - file containing function definitions
+* `{{page.num}}_tests.py` - file containing test cases
 
 ### Functions to Implement:
 
