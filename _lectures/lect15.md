@@ -5,7 +5,7 @@ pdfurl: /lectures/pdf/lect15.pdf
 ready: true
 lecture_date:  2019-03-07
 annotatedpdfurl: /lectures/pdf/lect15_ann.pdf
-annotatedready: false
+annotatedready: true
 ---
 
 ''' Dictionaries
