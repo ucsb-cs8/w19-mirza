@@ -10,25 +10,17 @@ import pytest
 from lab08 import recursiveDigitSum
 
 def test_recursiveDigitSum_0():
-    assert recursiveDigitSum(9999) == 36
+    assert recursiveDigitSum(1234) == 10
 
 # Your tests for recursiveDigitSum...
 
 ####################
-from lab08 import recursiveSubstring
+from lab08 import recursiveFactorial
 
-def test_recursiveSubstring_0():
-    assert recursiveSubstring("CS8", "CS") == True
+def test_recursiveFactorial_0():
+    assert recursiveFactorial(4) == 24
 
-# Your tests for recursiveDigitSum...
-
-####################
-from lab08 import recursiveReverseList
-
-def test_recursiveReverseList_0():
-    assert recursiveReverseList([1,2,3]) == [3,2,1]
-
-# Your tests for recursiveReverseList...
+# Your tests for recursiveFactorial...
 
 ####################
 from lab08 import recursiveAccumulateVowels
@@ -37,4 +29,3 @@ def test_recursiveAccumulateVowels_0():
     assert recursiveAccumulateVowels("apple") == "ae"
 
 # Your tests for recursiveAccumulateVowels...
-
