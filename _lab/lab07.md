@@ -66,11 +66,11 @@ So, how did our program know which letter combinations were valid words?......We
 
 You can choose to start from scratch or use the starter code we have provided here (you may need to refresh the page if the links do not load immediately):
 * `{{page.num}}.py` - file containing function definitions
-* `{{page.num}}_tests.py` - file containing test cases
+* `{{page.num}}_student_tests.py` - file containing test cases
 
 The link to the files is available below:
 * <https://ucsb-cs8.github.io/w19-mirza/lab/lab07/lab07.py>
-* <https://ucsb-cs8.github.io/w19-mirza/lab/lab07/lab07_tests.py>
+* <https://ucsb-cs8.github.io/w19-mirza/lab/lab07/lab07_student_tests.py>
 
 ### Functions to Implement:
 
