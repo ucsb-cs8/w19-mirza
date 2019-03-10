@@ -68,6 +68,10 @@ You can choose to start from scratch or use the starter code we have provided he
 * `{{page.num}}.py` - file containing function definitions
 * `{{page.num}}_tests.py` - file containing test cases
 
+The link to the files is available below:
+* <https://ucsb-cs8.github.io/w19-mirza/lab/lab07/lab07.py>
+* <https://ucsb-cs8.github.io/w19-mirza/lab/lab07/lab07_tests.py>
+
 ### Functions to Implement:
 
 1. **createWordList(filename)** - return a list of strings
