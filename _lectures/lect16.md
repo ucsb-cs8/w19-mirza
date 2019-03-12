@@ -2,7 +2,7 @@
 num: "lect16"
 desc: "Recursion"
 pdfurl: /lectures/pdf/lect16.pdf
-ready: false
+ready: true
 lecture_date:  2019-03-12
 annotatedpdfurl: /lectures/pdf/lect16_ann.pdf
 annotatedready: false
