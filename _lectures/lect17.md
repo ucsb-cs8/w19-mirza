@@ -5,7 +5,7 @@ pdfurl: /lectures/pdf/lect17.pdf
 ready: true
 lecture_date:  2019-03-14
 annotatedpdfurl: /lectures/pdf/lect17_ann.pdf
-annotatedready: false
+annotatedready: true
 ---
 
 # Recursion
